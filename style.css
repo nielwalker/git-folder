@@ -24,8 +24,13 @@
     
 }
 .logo{
-    width: 120 px;
+    width: 600px;
+    height: 600px;
     cursor: pointer;
+    position: relative;
+    left: -110px;
+    bottom: -250px;
+
 }
 .navigation ul li{
     list-style: none;
@@ -37,6 +42,7 @@
     text-decoration: none;
     color: #fff;
     text-transform: uppercase;
+    position: relative;
 }
 .navigation ul li::after{
     content: '';
@@ -46,7 +52,17 @@
     position: absolute;
     left: 0;
     bottom: -7px;
+    transition: 0.5s;
 }
 .navigation ul li:hover:after{
     width: 100%;
+}
+.content{
+    width: 150%;
+    position: relative;
+    top: -10%;
+    left: -650px;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #009688;
 }
