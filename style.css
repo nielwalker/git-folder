@@ -31,4 +31,22 @@
     list-style: none;
     display: inline-block;
     margin: 0 20px;
+    position: relative;
+}
+.navigation ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+.navigation ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #009688;
+    position: absolute;
+    left: 0;
+    bottom: -7px;
+}
+.navigation ul li:hover:after{
+    width: 100%;
 }
