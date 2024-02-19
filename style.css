@@ -54,7 +54,7 @@
     bottom: -7px;
     transition: 0.5s;
 }
-.navigation ul li:hover:after{
+.navigation ul li:hover{
     width: 100%;
 }
 .content{
