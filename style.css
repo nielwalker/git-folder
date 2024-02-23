@@ -58,11 +58,17 @@
     width: 100%;
 }
 .content{
+
     width: 150%;
     position: relative;
     top: -10%;
-    left: -650px;
+    left: -250px;
     transform: translateY(-50%);
     text-align: center;
     color: #009688;
+}
+.testing{
+    color: blue;
+    font-size: large;
+    
 }
