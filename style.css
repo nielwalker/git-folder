@@ -73,3 +73,12 @@
     font-size: large;
     
 }
+.contact{
+    background-color: #009688;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
